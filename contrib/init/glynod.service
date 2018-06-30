@@ -1,0 +1,22 @@
+[Unit]
+Description=GLYNO's distributed currency daemon
+After=network.target
+
+[Service]
+User=glyno
+Group=glyno
+
+Type=forking
+PIDFile=/var/lib/glynod/glynod.pid
+ExecStart=/usr/bin/glynod -daemon -pid=/var/lib/glynod/glynod.pid \
+-conf=/etc/glyno/glyno.conf -datadir=/var/lib/glynod -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

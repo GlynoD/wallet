@@ -1,0 +1,6 @@
+usr/local/bin/glyno-qt usr/bin
+share/pixmaps/glyno32.xpm usr/share/pixmaps
+share/pixmaps/glyno16.xpm usr/share/pixmaps
+share/pixmaps/glyno128.png usr/share/pixmaps
+debian/glyno-qt.desktop usr/share/applications
+debian/glyno-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GLYNO
+Comment=GLYNO P2P Cryptocurrency
+Comment[fr]=GLYNO, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=GLYNO, eşten eşe kriptografik sanal para birimi
+Exec=glyno-qt %u
+Terminal=false
+Type=Application
+Icon=glyno128
+MimeType=x-scheme-handler/glyno;
+Categories=Office;Finance;

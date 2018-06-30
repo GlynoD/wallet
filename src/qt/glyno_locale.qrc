@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/glyno_bg.qm</file>
+        <file alias="de">locale/glyno_de.qm</file>
+        <file alias="en">locale/glyno_en.qm</file>
+        <file alias="es">locale/glyno_es.qm</file>
+        <file alias="fi">locale/glyno_fi.qm</file>
+        <file alias="fr">locale/glyno_fr.qm</file>
+        <file alias="it">locale/glyno_it.qm</file>
+        <file alias="ja">locale/glyno_ja.qm</file>
+        <file alias="pl">locale/glyno_pl.qm</file>
+        <file alias="pt">locale/glyno_pt.qm</file>
+        <file alias="ru">locale/glyno_ru.qm</file>
+        <file alias="sk">locale/glyno_sk.qm</file>
+        <file alias="sv">locale/glyno_sv.qm</file>
+        <file alias="vi">locale/glyno_vi.qm</file>
+        <file alias="zh_CN">locale/glyno_zh_CN.qm</file>
+        <file alias="zh_TW">locale/glyno_zh_TW.qm</file>
+    </qresource>
+</RCC>
